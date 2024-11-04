@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+</head>
+<body>
+    <header>
+        <h1>Clientes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="">Clientes</a></li>
+                <li><a href="provedores.html">Provedores</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Tablas de lectura de clientes -->
+            <section id="leer-datos">
+                <h2>Leer clientes</h2>
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Cuidad</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Raul</td>
+                            <td>Castro</td>
+                            <td>Medellin</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Luisa</td>
+                            <td>Coronado</td>
+                            <td>Bogota</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Formulario para guardar datos -->
+            <section id="guardar-datos">
+               <h2>Guardar clientes</h2>
+               <form action="">
+                <!-- INPUT Nombre cliente -->
+                <label for="">Nombre</label>
+                <input type="text" id="nombre_cliente">
+                
+                <label for="">Apellido</label>
+                <input type="number" id="apellido_cliente">
+
+                <!-- INPUT Ciudad cliente -->
+                <label for="">Ciudad</label>
+                <input type="number" id="ciudad_cliente">
+               </form>
+            </section>
+
+            <!-- Formulario para actualiar datos -->
+            <section id="actualizar-datos">
+                <h2>Actualizar cliente</h2>
+                <form action="">
+                    <!-- INPUT Nombre cliente -->
+                    <label for="">Nombre</label>
+                    <input type="text" id="nombre_cliente">
+                    
+                    <label for="">Apellido</label>
+                    <input type="number" id="apellido_cliente">
+                    
+                    <!-- INPUT Ciudad cliente -->
+                    <label for="">Ciudad</label>
+                    <input type="number" id="ciudad_cliente">
+                </form>
+                
+            </section>
+            <!-- Formulario para borrar datos -->
+            <section id="borrar-cliente">
+                <h2>Borrar Cliente</h2>
+                <form>
+                    <label for="id-borrar">ID:</label>
+                    <input type="text" id="id-borrar" name="id-borrar">
+                    <button type="submit">Borrar</button>
+                </form>
+            </section>
+        </main>
+    </header>
+</body>
+</html>

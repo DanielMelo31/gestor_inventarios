@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <header>
+        <h1>Productos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="">Provedores</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Tablas de lectura de productos -->
+            <section id="leer-datos">
+                <h2>Leer Datos</h2>
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Camisa deportiva para hombre</td>
+                            <td>55</td>
+                            <td>$50.000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Zapatos para dama</td>
+                            <td>78</td>
+                            <td>$150.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Formulario para guardar datos -->
+            <section id="guardar-datos">
+               <h2>Guardar productos</h2>
+               <form action="">
+                <!-- INPUT Nombre producto -->
+                <label for="">Nombre</label>
+                <input type="text" id="nombre_producto">
+                <!-- INPUT Cantidad producto -->
+                <label for="">Cantidad</label>
+                <input type="number" id="cantidad_producto">
+                <!-- INPUT Precio producto -->
+                <label for="">Precio</label>
+                <input type="number" id="precio_producto">
+               </form>
+            </section>
+
+            <!-- Formulario para actualiar datos -->
+            <section id="actualizar-datos">
+                <h2>Actualizar producto</h2>
+                <form action="">
+                    <!-- INPUT Nombre producto -->
+                    <label for="">Nombre</label>
+                    <input type="text" id="nombre_producto">
+                    <!-- INPUT Cantidad producto -->
+                    <label for="">Cantidad</label>
+                    <input type="number" id="cantidad_producto">
+                    <!-- INPUT Precio producto -->
+                    <label for="">Precio</label>
+                    <input type="number" id="precio_producto">
+                </form>
+                
+            </section>
+            <!-- Formulario para borrar datos -->
+            <section id="borrar-producto">
+                <h2>Borrar Producto</h2>
+                <form>
+                    <label for="id-borrar">ID:</label>
+                    <input type="text" id="id-borrar" name="id-borrar">
+                    <button type="submit">Borrar</button>
+                </form>
+            </section>
+        </main>
+    </header>
+</body>
+</html>
